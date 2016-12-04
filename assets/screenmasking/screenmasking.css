@@ -1,0 +1,17 @@
+.texthelpMasking {
+  opacity: .5;
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  z-index: 2147483647
+}
+
+.texthelpMiddleMask {
+  opacity: 0;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  z-index: 2147483647
+}

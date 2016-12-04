@@ -1,0 +1,17 @@
+{
+  "type": "object"
+  , "required": ["accountType"]
+  , "properties": {
+    "accountType": {
+      "title": "Sidebar state on load"
+      , "description": "Controls the state of the sidebar upon load.\n 0 = do not show sidebar.\n 1 = show thumbnails in sidebar.\n 2 = show document outline in sidebar.\n 3 = Show attachments in sidebar."
+      , "type": "string"
+      , "enum": [
+        "Google"
+        , "MicrosoftLive"
+        , "MicrosoftSharepoint"
+      ]
+      , "default": "Google"
+    }
+  }
+}
